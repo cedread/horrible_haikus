@@ -1,0 +1,112 @@
+/*Color scheme:
+#3A606E - Deep Space Sparkle
+#607B7D - Steel Teal
+#828E82 - Xanadu
+#AAAE8E - Laurel Green
+#E0E0E0 - Gainsboro
+*/
+
+body {
+    text-align: center;
+    line-height: 1.5;
+    color: #E0E0E0;
+    background-color: #22223B;
+}
+
+header {
+    width: 100%;
+    background-color: #4a4e6951;
+}
+
+header p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+    font-style: italic;
+    opacity: 65%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 5rem;
+}
+
+#haikuDisplay {
+    border-radius: 10px;
+    text-align: center;
+    margin: 2% auto;
+    width: 70%;
+    background-color: #4a4e6951;
+    min-height: 12rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-family: 'Kalam', cursive;
+    font-size: 2rem;
+    line-height: 2;
+    font-style: italic;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    background-color: #F2E9E4;
+    border-radius: 4px;
+    box-shadow: 1px 1px #4a4e69;
+}
+
+button:hover {
+    box-shadow: none;
+    font-style: italic;
+    transition: font-weight 1s ease-in-out;
+}
+
+button:active {
+    font-size: 1.75rem;
+    text-decoration: underline;
+    transition: font-size 1s ease-in-out;
+    transition: text-decoration 1s ease-in-out;
+}
+
+@media only screen and (max-width: 672px) {
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 495px) {
+    #haikuDisplay {
+        width: 85%;
+    }
+
+    header p {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    h3 {
+        font-size: 1.125rem;
+    }
+}
